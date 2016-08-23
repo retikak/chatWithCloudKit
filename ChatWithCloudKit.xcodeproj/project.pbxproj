@@ -7,21 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79203CD01D661BAB00FBCE7F /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79203CCF1D661BAB00FBCE7F /* ContactsTableViewController.swift */; };
+		796F9C711D62AA9C00325DF5 /* CloudKitSyncable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F9C701D62AA9C00325DF5 /* CloudKitSyncable.swift */; };
 		79DA55881D6259FB0032224C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA55871D6259FB0032224C /* AppDelegate.swift */; };
-		79DA558A1D6259FB0032224C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA55891D6259FB0032224C /* ViewController.swift */; };
 		79DA558D1D6259FB0032224C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DA558B1D6259FB0032224C /* Main.storyboard */; };
 		79DA558F1D6259FB0032224C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DA558E1D6259FB0032224C /* Assets.xcassets */; };
 		79DA55921D6259FB0032224C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DA55901D6259FB0032224C /* LaunchScreen.storyboard */; };
+		79DA559A1D6262450032224C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA55991D6262450032224C /* CustomTableViewCell.swift */; };
+		79DA559F1D6265510032224C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DA559E1D6265510032224C /* CloudKit.framework */; };
+		79DA55A11D6265F80032224C /* MessageListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA55A01D6265F80032224C /* MessageListTableViewController.swift */; };
+		79DA55A31D62689A0032224C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA55A21D62689A0032224C /* DetailViewController.swift */; };
+		79DA55A51D6269040032224C /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA55A41D6269040032224C /* CloudKitManager.swift */; };
+		79DA55A71D626AAC0032224C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA55A61D626AAC0032224C /* User.swift */; };
+		79DA55A91D626AB70032224C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA55A81D626AB70032224C /* Message.swift */; };
+		79DA55B31D627A720032224C /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA55B21D627A720032224C /* Thread.swift */; };
+		79DA55B51D627F770032224C /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA55B41D627F770032224C /* MessageController.swift */; };
+		79DA55B71D627F860032224C /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA55B61D627F860032224C /* UserController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79203CCF1D661BAB00FBCE7F /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		796F9C701D62AA9C00325DF5 /* CloudKitSyncable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitSyncable.swift; sourceTree = "<group>"; };
 		79DA55841D6259FB0032224C /* ChatWithCloudKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatWithCloudKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DA55871D6259FB0032224C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79DA55891D6259FB0032224C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79DA558C1D6259FB0032224C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79DA558E1D6259FB0032224C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79DA55911D6259FB0032224C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79DA55931D6259FB0032224C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DA55991D6262450032224C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		79DA559B1D6263FF0032224C /* ChatWithCloudKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ChatWithCloudKit.entitlements; sourceTree = "<group>"; };
+		79DA559E1D6265510032224C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		79DA55A01D6265F80032224C /* MessageListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageListTableViewController.swift; sourceTree = "<group>"; };
+		79DA55A21D62689A0032224C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		79DA55A41D6269040032224C /* CloudKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		79DA55A61D626AAC0032224C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		79DA55A81D626AB70032224C /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		79DA55B21D627A720032224C /* Thread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		79DA55B41D627F770032224C /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		79DA55B61D627F860032224C /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,15 +52,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79DA559F1D6265510032224C /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79D9A5391D6380A700C8E37B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				796F9C701D62AA9C00325DF5 /* CloudKitSyncable.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
 		79DA557B1D6259FB0032224C = {
 			isa = PBXGroup;
 			children = (
+				79DA559E1D6265510032224C /* CloudKit.framework */,
 				79DA55861D6259FB0032224C /* ChatWithCloudKit */,
 				79DA55851D6259FB0032224C /* Products */,
 			);
@@ -54,14 +87,57 @@
 		79DA55861D6259FB0032224C /* ChatWithCloudKit */ = {
 			isa = PBXGroup;
 			children = (
+				79DA559B1D6263FF0032224C /* ChatWithCloudKit.entitlements */,
 				79DA55871D6259FB0032224C /* AppDelegate.swift */,
-				79DA55891D6259FB0032224C /* ViewController.swift */,
-				79DA558B1D6259FB0032224C /* Main.storyboard */,
+				79DA55AD1D626B040032224C /* ViewController */,
+				79DA55AC1D626AEB0032224C /* View */,
+				79DA55AB1D626ACC0032224C /* ModelController */,
+				79D9A5391D6380A700C8E37B /* Protocol */,
+				79DA55AA1D626ABD0032224C /* Model */,
 				79DA558E1D6259FB0032224C /* Assets.xcassets */,
-				79DA55901D6259FB0032224C /* LaunchScreen.storyboard */,
 				79DA55931D6259FB0032224C /* Info.plist */,
 			);
 			path = ChatWithCloudKit;
+			sourceTree = "<group>";
+		};
+		79DA55AA1D626ABD0032224C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79DA55A61D626AAC0032224C /* User.swift */,
+				79DA55A81D626AB70032224C /* Message.swift */,
+				79DA55B21D627A720032224C /* Thread.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		79DA55AB1D626ACC0032224C /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				79DA55A41D6269040032224C /* CloudKitManager.swift */,
+				79DA55B41D627F770032224C /* MessageController.swift */,
+				79DA55B61D627F860032224C /* UserController.swift */,
+			);
+			name = ModelController;
+			sourceTree = "<group>";
+		};
+		79DA55AC1D626AEB0032224C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79DA55991D6262450032224C /* CustomTableViewCell.swift */,
+				79DA558B1D6259FB0032224C /* Main.storyboard */,
+				79DA55901D6259FB0032224C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		79DA55AD1D626B040032224C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79DA55A01D6265F80032224C /* MessageListTableViewController.swift */,
+				79DA55A21D62689A0032224C /* DetailViewController.swift */,
+				79203CCF1D661BAB00FBCE7F /* ContactsTableViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +172,15 @@
 				TargetAttributes = {
 					79DA55831D6259FB0032224C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JUWJEKQFF8;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -135,8 +220,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79DA558A1D6259FB0032224C /* ViewController.swift in Sources */,
+				79DA55B51D627F770032224C /* MessageController.swift in Sources */,
+				79DA559A1D6262450032224C /* CustomTableViewCell.swift in Sources */,
+				79203CD01D661BAB00FBCE7F /* ContactsTableViewController.swift in Sources */,
+				79DA55B31D627A720032224C /* Thread.swift in Sources */,
+				79DA55A11D6265F80032224C /* MessageListTableViewController.swift in Sources */,
+				796F9C711D62AA9C00325DF5 /* CloudKitSyncable.swift in Sources */,
+				79DA55A71D626AAC0032224C /* User.swift in Sources */,
 				79DA55881D6259FB0032224C /* AppDelegate.swift in Sources */,
+				79DA55B71D627F860032224C /* UserController.swift in Sources */,
+				79DA55A31D62689A0032224C /* DetailViewController.swift in Sources */,
+				79DA55A51D6269040032224C /* CloudKitManager.swift in Sources */,
+				79DA55A91D626AB70032224C /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +344,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChatWithCloudKit/ChatWithCloudKit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ChatWithCloudKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oppfish.ChatWithCloudKit;
@@ -260,6 +357,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChatWithCloudKit/ChatWithCloudKit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ChatWithCloudKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oppfish.ChatWithCloudKit;
@@ -286,6 +385,7 @@
 				79DA55981D6259FB0032224C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
